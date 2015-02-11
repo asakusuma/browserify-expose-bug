@@ -1,0 +1,1 @@
+# browserify-expose-bug
