@@ -10,4 +10,4 @@ Run `node main.js` to build the bundle. You can execute `index.html` in the brow
 ### Actual Behavior
 `./modules/my-foo` is the root of the bundle. In other words `window.MyModule` === `./modules/my-foo`.
 
-This happens when you use `b.add` or `b.require` with the `expose` option to re-map the module id.
+This happens when you use `b.add` or `b.require` with the `expose` option to re-map the module id of `./modules/my-foo`.
